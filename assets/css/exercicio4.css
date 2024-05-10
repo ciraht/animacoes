@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+    transition: all 3s;
+}
+.exercicio4 {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+.margem1 {
+    width: 1440px;
+    height: 47px;
+    background-color: #000000;
+}
+.margem2 {
+    width: 1440px;
+    height: 47px;
+    background-color: #000000;
+    top: 977px;
+    left: 1px;
+    position: absolute;
+}
+.margem3 {
+    width: 47px;
+    height: 930px;
+    background-color: #000000;
+    position: absolute;
+    top: 47px;
+    left: 1px;
+}
+.margem4 {
+    width: 47px;
+    height: 930px;
+    background-color: #000000;
+    position: absolute;
+    top: 47px;
+    left: 1393px;
+}
+.vermelho {
+    width: 608px;
+    height: 467px;
+    top: 278px;
+    left: 416px;
+    background-color: #EA1111;
+    position: absolute;
+}
+.verde {
+    width: 503px;
+    height: 332px;
+    top: 65px;
+    left: 50px;
+    background-color: #5EFEB1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bola1 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFA1F0;
+    border-radius: 50%;
+    position: absolute;
+    top: 462px;
+    left: 351px;
+    
+    animation-name: bola1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bola2 {
+    width: 100px;
+    height: 100px;
+    background-color: #A1EEFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 462px;
+    left: 990px;
+    
+    animation-name: bola2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bola3 {
+    width: 100px;
+    height: 100px;
+    background-color: #280E0E;
+    border-radius: 50%;
+    position: absolute;
+    top: 696px;
+    left: 671px;
+    
+    animation-name: bola3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bola4 {
+    width: 100px;
+    height: 100px;
+    background-color: #F7F9A3;
+    border-radius: 50%;
+    position: absolute;
+    top: 228px;
+    left: 670px;
+    
+    animation-name: bola4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bola5 {
+    width: 100px;
+    height: 100px;
+    background-color: #3705FF;
+    border-radius: 50%;
+}
+
+@keyframes bola1 {
+    0% {
+        top: 462px;
+        left: 351px;
+    }
+    25% {
+        top: 696px;
+        left: 671px;
+    }
+    50% {
+        top: 462px;
+        left: 990px;
+    }
+    75% {
+        top: 228px;
+        left: 670px;
+    }
+    100% {
+        top: 462px;
+        left: 351px;
+    }
+}
+
+@keyframes bola2 {
+    0% {
+        top: 462px;
+        left: 990px;
+    }
+    25% {
+        top: 228px;
+        left: 670px;
+    }
+    50% {
+        top: 462px;
+        left: 351px;
+    }
+    75% {
+        top: 696px;
+        left: 671px;
+    }
+    100% {
+        top: 462px;
+        left: 990px;
+    }
+}
+
+@keyframes bola3 {
+    0% {
+        top: 696px;
+        left: 671px;
+    }
+    25% {
+        top: 462px;
+        left: 990px;
+    }
+    50% {
+        top: 228px;
+        left: 670px;
+    }
+    75% {
+        top: 462px;
+        left: 351px;
+    }
+    100% {
+        top: 696px;
+        left: 671px;
+    }
+}
+
+@keyframes bola4 {
+    0% {
+        top: 228px;
+        left: 670px;
+    }
+    25% {
+        top: 462px;
+        left: 351px;
+    }
+    50% {
+        top: 696px;
+        left: 671px;
+    }
+    75% {
+        top: 462px;
+        left: 990px;
+    }
+    100% {
+        top: 228px;
+        left: 670px;
+    }
+}
